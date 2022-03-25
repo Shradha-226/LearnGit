@@ -1,0 +1,18 @@
+type Query{
+	getUpdatedApisForDiscovery:Collection<ApiDetails>
+}
+
+
+type ApiDetails{
+	apilmId: String
+	description: String
+	tags: String
+	apmId: String
+	apmId: String
+	category: String
+	createdOn: String
+	modifiedOn : String
+	serviceName : String
+	appKey : String
+	
+}
